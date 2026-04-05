@@ -33,8 +33,8 @@ _(Rationale: Bun is a self-contained binary. To avoid dependency pollution and e
 # Official installation script (Optimized for minimal footprint)
 curl -fsSL https://bun.sh/install | bash
 
-# Alternatively, via Arch User Repository (AUR) for system-wide tracking
-yay -S bun-bin
+# Alternatively, via Pacman for system-wide tracking
+sudo pacman -S bun-bin
 ```
 
 ### Windows

@@ -31,13 +31,13 @@ _(Rationale: Podman thrives when integrated into the host's native security and 
 
 ```bash
 # Install Podman along with recommended OCI tools (buildah for building, skopeo for image inspection)
-sudo pacman -S podman buildah skopeo fuse-overlayfs
+sudo pacman -S podman podman-compose fuse-overlayfs
 
 # Enable rootless support (standard for modern Arch installs)
 touch /etc/subuid /etc/subgid
 sudo usermod --add-subuids 100000-165535 $(whoami)
 sudo usermod --add-subgids 100000-165535 $(whoami)
-
+z
 # Re-log to apply subuid changes
 ```
 

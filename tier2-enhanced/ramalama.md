@@ -27,7 +27,7 @@ _(Rationale: RamaLama is designed to live alongside the Podman ecosystem. While 
 ```bash
 # As of 2026, RamaLama is in the AUR and moving to [extra]
 # Prioritize 'yay' for the most recent build with all hardware hooks
-yay -S ramalama podman
+yay -S ramalama
 
 # Ensure your user can run rootless Podman
 systemctl --user enable --now podman.socket

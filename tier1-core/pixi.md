@@ -28,8 +28,8 @@ _(Rationale: `pixi` is designed to be the "root" of your development environment
 # Install the binary directly (fastest, most reliable)
 curl -fsSL https://pixi.sh/install.sh | bash
 
-# Alternatively, via AUR for system-wide tracking
-yay -S pixi-bin
+# Alternatively, via Pacman for system-wide tracking
+sudo pacman -S pixi
 ```
 
 ### Windows

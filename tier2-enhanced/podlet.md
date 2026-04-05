@@ -25,8 +25,8 @@ _(Rationale: `podlet` is a developer utility that should exist independently of 
 ### Linux (Arch Linux Optimized)
 
 ```bash
-# Available via AUR for standard Arch users
-yay -S podlet
+# Available via pacman for standard Arch users
+sudo pacman -S podlet
 
 # For users with a Rust toolchain, use binstall for the pre-compiled binary
 cargo binstall podlet

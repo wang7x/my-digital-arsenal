@@ -14,7 +14,7 @@ added_date: 2026-04-05
 ## 📝 1. Description
 
 - **Core Use Case**: A modern command runner that serves as a cleaner, more purposeful alternative to `make` for project-specific automation tasks.
-- **Offical Description**: "just is a handy way to save and run project-specific commands. Commands are stored in a file called justfile with syntax inspired by make."
+- **Official Description**: "just is a handy way to save and run project-specific commands. Commands are stored in a file called justfile with syntax inspired by make."
 - **Official Website**: [https://just.systems/](https://just.systems/)
 - **Repository**: [https://github.com/casey/just](https://github.com/casey/just)
 - **Build/Architecture Trait**: Statically linked Rust binary. Zero runtime dependencies (unlike `npm` scripts or `python` runners).

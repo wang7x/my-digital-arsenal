@@ -90,4 +90,4 @@ _(Score each dimension from 1 to 5 stars, followed by a concise, objective criti
 
 [Grammar and Spelling Errors]
 
-- 'Offical Description' -> 'Official Description' (in the output template prompt)
+- 'Official Description' -> 'Official Description' (in the output template prompt)

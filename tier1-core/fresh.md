@@ -81,7 +81,7 @@ podman run --rm -it -v "$(pwd):/workspace:Z" -w /workspace ghcr.io/fresh-editor/
 | **Open File at Specific Line** | `fresh src/main.rs:42` |
 | **Open in Read-Only Mode** | `fresh -R /var/log/system.log` |
 | **Load Multi-file Buffer Session** | `fresh $(git diff --name-only)` |
-| **Pipe STDIN into Buffer** | `journalctl -u podman -n 50 | fresh -` |
+| **Pipe STDIN into Buffer** | `journalctl -u podman -n 50 \| fresh -` |
 | **Force Custom Syntax Highlighting** | `fresh --syntax=rust build.config` |
 
 ---
